@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  nav {
+    @apply border border-blue-300 flex justify-between items-center;
+  }
+
+  .logo {
+    @apply text-blue-500 text-4xl font-black hidden;
+  }
+
+  .Ul {
+    @apply flex items-center gap-3 bg-slate-600;
+  }
+}
