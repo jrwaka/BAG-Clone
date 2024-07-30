@@ -22,7 +22,7 @@ function NavBar() {
   ];
   return (
     <div>
-      <nav className="navBar">
+      <nav className="navBar ">
         <img src="BAG.png" alt="" className="h-[24px], w-[72px] bg-slate-400" />
         <div className="navLink">
           <a href="/" className="betweenLink">
@@ -31,7 +31,9 @@ function NavBar() {
           <a href="/" className="betweenLink">
             Employers
           </a>
-          <a href="/" className="betweenLink"></a>
+          <a href="/" className="betweenLink">
+            Universities
+          </a>
           <a href="/" className="betweenLink">
             Job Board
           </a>

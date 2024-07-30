@@ -4,7 +4,7 @@
 
 @layer base {
   nav {
-    @apply text-black;
+    @apply text-black bg-yellow-200;
   }
 }
 .betweenLink {
@@ -16,6 +16,19 @@
 .navButton {
   @apply items-center justify-between gap-3;
 }
+.navLink {
+  @apply hidden md:flex   flex-1 flex-shrink justify-around p-3;
+}
+.menu {
+  @apply flex md:hidden  bg-white justify-between  fixed top-[54px]   bottom-0 w-full z-50;
+  .list {
+    @apply flex flex-col gap-3 text-xl font-medium w-full bg-blue-100  items-center flex-1 justify-around rounded-b-[6rem];
+  }
+}
+.toggleMenu {
+  @apply text-3xl block md:hidden;
+}
+
 .navLink {
   @apply hidden md:flex   flex-1 flex-shrink justify-around p-3;
 }
