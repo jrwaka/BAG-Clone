@@ -24,7 +24,7 @@
   @apply hidden md:flex   flex-1 flex-shrink justify-around p-3;
 }
 .menu {
-  @apply flex md:hidden  bg-white justify-between  fixed top-[54px]   bottom-0 w-full z-50;
+  @apply flex md:hidden  bg-white justify-between  fixed top-[47px]   bottom-0 w-full z-50;
   .list {
     @apply flex flex-col gap-3 text-xl font-medium w-full bg-blue-100  items-center flex-1 justify-around rounded-b-[6rem];
   }
@@ -83,4 +83,3 @@
 .belowSect1Card {
   @apply transition-all duration-200 p-5 w-[170px] rounded-lg border border-gray-200 cursor-pointer flex flex-col justify-between items-start;
 }
-@ke;
