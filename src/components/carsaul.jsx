@@ -1,4 +1,3 @@
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,8 +14,8 @@ function Carsaul() {
     cssEase: "linear", // Stop sliding on hover
   };
   return (
-    <div>
-      <div className=" border p-4 border-slate-400 w-full mx-auto">
+    <div className="py-4">
+      <div className=" border  border-slate-400 w-full mx-auto">
         <Slider {...settings}>
           <div className="w-[100px] h-[70px] p-4  slide">
             <img src="BAG.png" alt="" />

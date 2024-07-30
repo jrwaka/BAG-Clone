@@ -1,24 +1,25 @@
+import React from "react";
 
-import "./FirstMainSection.css";
 function FirstMainSection() {
   return (
     <div>
-      <div className="bg-black justify-center items-center mt-[5rem] gap-4">
-        <div className="bg-white hover:bg-blue-600  text-blue-600 hover:text-white transition-all duration-200 py-4 pr-6 pl-4 rounded-lg border border-gray-300 cursor-pointer">
-          <div className="text-[3rem] font-bold">20k+</div>
-          <div className="text-[1rem] font-bold">Talents</div>
+      <div className=" flex flex-col gap-4 h-auto md:h-[100vh] mt-10 md:mt-0  justify-center w-[100vw] items-center bg-white py-[40px] md:py-0">
+        <div>
+          <h1 className="text-[30px] md:text-[74px] font-bold text-center select-none">
+            <span>GET </span>
+            <span className="text-purple-900">UPSKILLED</span>
+          </h1>
         </div>
-        <div className="bg-white text-purple-800 hover:text-white hover:bg-purple-800 transition-all duration-200 py-4 pr-6 pl-4 rounded-lg border border-gray-300 cursor-pointer">
-          <div className="text-[3rem] font-bold ">1k+</div>
-          <div className="text-[1rem] font-bold">Job Placements</div>
-        </div>
-        <div className="bg-white text-orange-500 hover:text-white hover:bg-orange-500 transition-all duration-200 py-4 pr-6 pl-4 rounded-lg border border-gray-300 cursor-pointer">
-          <div className="text-[3rem] font-bold">150+</div>
-          <div className="text-[1rem] font-bold">Employers</div>
-        </div>
-        <div className="bg-white text-black hover:text-white hover:bg-black transition-all duration-200 py-4 pr-6 pl-5 rounded-lg border border-gray-300 cursor-pointer">
-          <div className="text-[3rem] font-bold">15+</div>
-          <div className="text-[1rem] font-bold">Universities</div>
+        <p className="text-center text-sm md:text-xl font-semibold">
+          Africa's most innovative job simulation platform
+        </p>
+        <div className="flex items-center justify-center gap-4  w-full">
+          <button className=" px-[30px] py-[13px] rounded-full text-sm bg-blue-600 text-white font-semibold ">
+            GET STARTED
+          </button>
+          <button className="px-[32px] py-[13px] rounded-full text-sm bg-purple-800 text-white font-semibold ">
+            JOB READINESS SCORE
+          </button>
         </div>
       </div>
     </div>

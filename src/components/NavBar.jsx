@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 // import "./bag.css";
-import "./NavBar.css";
 
 function NavBar() {
   const [togglemenu, setMenu] = useState(false);
@@ -22,32 +21,44 @@ function NavBar() {
   ];
   return (
     <div>
-      <nav className="navBar ">
-        <img src="BAG.png" alt="" className="h-[24px], w-[72px] bg-slate-400" />
-        <div className="navLink">
-          <a href="/" className="betweenLink">
-            Talents
-          </a>
-          <a href="/" className="betweenLink">
-            Employers
-          </a>
-          <a href="/" className="betweenLink">
-            Universities
-          </a>
-          <a href="/" className="betweenLink">
-            Job Board
-          </a>
+      <nav className="flex justify-between items-center fixed top-0 z-50 md:left-24 md:right-24 px-8 py-2 md:rounded-b-[2rem] md:text-xs lg:text-[16px] text-xs left-0 right-0 rounded-none border border-gray-200 bg-white">
+        <img src="BAG.png" alt="" className="h-[23px], w-[70px]" />
+        <div className="hidden md:flex   flex-1 flex-shrink justify-around p-3 ">
+          <div className="p-2 ">
+            <a href="/" className="betweenLink">
+              Talents
+            </a>
+          </div>
+
+          <div className="p-2 ">
+            <a href="/" className="betweenLink">
+              Employers
+            </a>
+          </div>
+
+          <div className="p-2 ">
+            <a href="/" className="betweenLink">
+              Universities
+            </a>
+          </div>
+
+          <div className="p-2 ">
+            <a href="/" className="betweenLink">
+              Job Board
+            </a>
+          </div>
+
           <div
-            className=""
+            className=" p-2 relative "
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-            <a href="/" className="betweenLink">
+            <a href="/" className="betweenLink ">
               Our Team
             </a>
             <div className="dropdown">
               {isDropdownOpen && (
-                <div className="absolute -right-22 top-8 mt-2 w-45 bg-black border border-gray-200 rounded-md shadow-lg">
+                <div className="absolute left-0 top-6 mt-2 w-45 bg-white text-sm">
                   <a
                     href="/"
                     className="block px-4 py-2 text-blue-600 font-semibold"
@@ -65,7 +76,7 @@ function NavBar() {
             </div>
           </div>
         </div>
-        <div className="navButton ">
+        <div className="items-center justify-between gap-3 ">
           <div className="hidden md:flex items-center gap-4">
             <button className="px-5 py-3 rounded-full  bg-gray-100 text-black hover:bg-blue-600 hover:text-white transition duration-300 font-semibold">
               Login
@@ -73,7 +84,7 @@ function NavBar() {
             <button className="px-5 py-3 rounded-full bg-blue-600 text-white font-semibold whitespace-nowrap">
               Get Started
             </button>
-            <button className="toggleMenu" onClick={toggleMenu}>
+            <button className="text-3xl block md:hidden" onClick={toggleMenu}>
               {togglemenu ? (
                 <svg
                   className="close"
