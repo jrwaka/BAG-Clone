@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(245, 240, 240);
+  background-color: rgb(245, 245, 255);
 }
 
 .slick-slider .slick-track {
@@ -41,30 +41,4 @@ body {
 
 .slick-active {
   animation: slideIn infinite linear;
-}
-@layer base {
-  nav {
-    @apply text-black;
-  }
-}
-.betweenLink {
-  @apply flex flex-nowrap whitespace-nowrap items-center hover:text-blue-500 h-full relative;
-}
-.navBar {
-  @apply flex justify-between items-center fixed top-0 z-50 md:left-24 md:right-24 px-8 py-3 md:rounded-b-[2rem] md:text-xs lg:text-[16px] text-xs left-0 right-0 rounded-none border border-gray-300 bg-white;
-}
-.navButton {
-  @apply items-center justify-between gap-3;
-}
-.navLink {
-  @apply hidden md:flex   flex-1 flex-shrink justify-around p-3;
-}
-.menu {
-  @apply flex md:hidden  bg-white justify-between  fixed top-[54px]   bottom-0 w-full z-50;
-  .list {
-    @apply flex flex-col gap-3 text-xl font-medium w-full bg-blue-100  items-center flex-1 justify-around rounded-b-[6rem];
-  }
-}
-.toggleMenu {
-  @apply text-3xl block md:hidden;
 }
