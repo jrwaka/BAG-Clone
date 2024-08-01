@@ -20,7 +20,7 @@ module.exports = {
           "100%": { transform: "translateX(0%)" },
         },
         marquee3: {
-          "100%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(100%)" },
           "0%": { transform: "translateX(-100%)" },
         },
         marquee4: {
