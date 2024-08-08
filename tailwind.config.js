@@ -2,8 +2,6 @@
 module.exports = {
   content: ["./src/components/*.{js,ts,jsx,tsx,css}"],
   theme: {
-<<<<<<< HEAD
-<<<<<<< HEAD
     extend: {
       animation: {
         marquee: "marquee 25s linear infinite",
@@ -31,12 +29,6 @@ module.exports = {
         },
       },
     },
-=======
-    extend: {},
->>>>>>> 6c2dc09 (change)
-=======
-    extend: {},
->>>>>>> 6c2dc09eda0ac1c6538fddf5ec69bea70a50510d
   },
   plugins: [],
 };
