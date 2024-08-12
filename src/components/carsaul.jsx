@@ -39,7 +39,7 @@ function Carsaul() {
   // newImageArr = Array.from(images).reverse();
 
   return (
-    <div className=" ">
+    <div className="mt-24">
       <div className="bg-[#282541] text-white relative ">
         <div className="absolute top-0 bottom-0 bg-gradient-to-r from-[#1a182b]  left-0 to-transparent  z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
         <p className="text-center py-6 font-semibold text-3xl">
@@ -98,6 +98,7 @@ function Carsaul() {
               );
             })}
           </div>
+        
           <div className="flex items-center animate-loopSlide2   gap-20  ">
             {images2.map((image, index) => {
               return (

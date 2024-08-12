@@ -3,7 +3,7 @@ import BelowSect1 from "./BelowSect1";
 import Carsaul from "./carsaul";
 import FirstMainSection from "./FirstMainSection";
 import NavBar from "./NavBar";
-import Talents from "./Talents"
+import Talents from "./Talents";
 
 const Index = () => {
   return (

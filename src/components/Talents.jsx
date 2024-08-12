@@ -15,24 +15,18 @@ function Talents() {
           />
         </div>
         <div className="w-[400px]  py-10">
-          hello Esse ut enim cillum laboris excepteur pariatur pariatur nisi
-          dolore. Aliqua commodo aliquip reprehenderit magna sunt est aliquip
-          Lorem aliqua velit minim. Dolor irure sunt aute aliquip sunt duis
-          minim cillum. Veniam magna pariatur anim reprehenderit labore enim est
-          veniam cillum ut. Lorem id sunt magna sint sunt esse in. Laborum
-          aliquip ex magna Lorem. Laboris labore aute occaecat id. Quis est
-          consequat exercitation laboris. Proident labore deserunt commodo ea.
-          Labore anim nulla officia non reprehenderit duis esse sit duis
-          proident irure sint. Laboris duis non ea ipsum. Amet deserunt laboris
-          ex cupidatat magna aute aute est. Officia deserunt irure et occaecat
-          enim aliquip quis est dolore. Qui ea tempor aliquip aliquip officia do
-          sint deserunt occaecat minim do. Consectetur et aliqua quis voluptate
-          proident pariatur duis veniam aliquip ut. Cillum ad id duis occaecat.
-          In exercitation veniam aliquip qui dolore quis non eiusmod eu
-          excepteur consequat. Incididunt laboris ex excepteur sit. Nisi
-          deserunt irure laboris elit ad ad consectetur proident ex. Amet
-          occaecat consequat consequat culpa ipsum id eu veniam. Amet deserunt
-          ad duis enim.
+          <div className="bg-yellow-200 flex flex-col gap-3  items-center">
+            <img className="" src="./cup.ee89f4a1.svg" alt="hello" />
+            <h1 className="xl:text-3xl font-bold lg:text-xl text-sm">
+              Gain Work Experience
+            </h1>
+            <p className="text-center">
+              Complete Work Experiences and tasks to enhance your profile.
+              Receive scores and detailed feedback from employers on areas for
+              improvement.
+            </p>
+          </div>
+          <div></div>
         </div>
       </div>
     </div>
