@@ -2,37 +2,43 @@ import React from "react";
 
 function Talents() {
   return (
-    <div className="px-[60px] ">
-      <div className="rounded-3xl flex  mt-28  gap-5 ">
-        <div className="bg-blue-400  ps-[80px] rounded-3xl flex flex-col flex-1  gap-3">
-          <p className="text-white font-bold text-[48px] my-[3rem]">
-            FOR TALENTS
+    <div className="px-[60px] space-x-6  mx-auto flex pt-20 lg:flex-row flex-col">
+      <div className="bg-blue-400  ps-[80px] rounded-3xl flex flex-col flex-2  gap-3 ">
+        <p className="text-white font-bold text-[48px] my-[3rem]">
+          FOR TALENTS
+        </p>
+        <img
+          src="talents.jpg"
+          alt=""
+          className="rounded-xl border-l-2 h-[450px] border-black border-t-2 px- object-cover"
+        />
+      </div>
+
+      <div className=" flex flex-col items-center justify-between   flex-1 px-6">
+        <div className="bg-white flex flex-col items-center pb-5 ">
+          <img className="mb-4" src="./cup.ee89f4a1.svg" alt="hello" />
+          <h1 className="text-center font-bold 2xl:text-3xl xl:text-4xl  md:text-xl text-lg  lg:w-[21rem]  ">
+            Gain Work Experience
+          </h1>
+          <p className="text-center text-sm mt-2   lg:w-[21rem] font-normal">
+            Complete Work Experiences and tasks to enhance your profile. Receive
+            scores and detailed feedback from employers on areas for
+            improvement.
           </p>
-          <img
-            src="talents.jpg"
-            alt=""
-            className="rounded-xl border-l-2 h-[450px] border-black border-t-2 px- object-cover"
-          />
         </div>
-        <div className="w-[400px]  py-10">
-          hello Esse ut enim cillum laboris excepteur pariatur pariatur nisi
-          dolore. Aliqua commodo aliquip reprehenderit magna sunt est aliquip
-          Lorem aliqua velit minim. Dolor irure sunt aute aliquip sunt duis
-          minim cillum. Veniam magna pariatur anim reprehenderit labore enim est
-          veniam cillum ut. Lorem id sunt magna sint sunt esse in. Laborum
-          aliquip ex magna Lorem. Laboris labore aute occaecat id. Quis est
-          consequat exercitation laboris. Proident labore deserunt commodo ea.
-          Labore anim nulla officia non reprehenderit duis esse sit duis
-          proident irure sint. Laboris duis non ea ipsum. Amet deserunt laboris
-          ex cupidatat magna aute aute est. Officia deserunt irure et occaecat
-          enim aliquip quis est dolore. Qui ea tempor aliquip aliquip officia do
-          sint deserunt occaecat minim do. Consectetur et aliqua quis voluptate
-          proident pariatur duis veniam aliquip ut. Cillum ad id duis occaecat.
-          In exercitation veniam aliquip qui dolore quis non eiusmod eu
-          excepteur consequat. Incididunt laboris ex excepteur sit. Nisi
-          deserunt irure laboris elit ad ad consectetur proident ex. Amet
-          occaecat consequat consequat culpa ipsum id eu veniam. Amet deserunt
-          ad duis enim.
+        <div className="bg-slate-800 flex flex-col p-10 rounded-3xl items-center ">
+          <img
+            className="mb-4"
+            src="./sponser/building.80c20bd7.svg"
+            alt="home"
+          />
+          <h1 className="text-center font-bold 2xl:text-3xl xl:text-4xl  md:text-xl text-lg text-white">
+            Get Employed
+          </h1>
+          <p className="text-center text-sm   font-normal text-white mt-2">
+            We match you with job and internship opportunities that align with
+            your skills, interests, and performance scores.
+          </p>
         </div>
       </div>
     </div>

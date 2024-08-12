@@ -38,7 +38,7 @@ function Carsaul() {
   ];
 
   return (
-    <div className=" mt-16 ">
+    <div className=" mt-16 mx-auto">
       <div className="bg-[#282541] text-white relative pt-8">
         <div className="absolute top-0 bottom-0 bg-gradient-to-r from-[#1a182b]  left-0 z-10  w-[10%] 2xl:w-[55rem] xl:w-[32rem] from-30% to-transparent"></div>
         <p className="text-center py-6 font-semibold text-3xl">

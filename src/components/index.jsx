@@ -7,7 +7,7 @@ import Talents from "./Talents";
 import Experience from "./experience";
 const Index = () => {
   return (
-    <div className=" w-[100vw]   pb-[100px] ">
+    <div className="   pb-[100px] ">
       <NavBar />
       <FirstMainSection />
       <BelowSect1 />
