@@ -3,7 +3,7 @@ import React from "react";
 export default function BelowSect1() {
   return (
     <div>
-      <div className="flex justify-center items-center flex-wrap gap-5 ">
+      <div className="flex justify-center items-center flex-wrap gap-5 bg-white">
         <div className="lg:bg-white lg:hover:bg-blue-600  lg:text-blue-600 lg:hover:text-white bg-blue-600 text-white belowSect1Card">
           <div className="text-3xl font-bold py-3">20k+</div>
           <div className="text-[1rem] font-bold ">Talents</div>
