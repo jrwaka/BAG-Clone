@@ -19,6 +19,21 @@ function Carsaul() {
     "/sponser/PivotLogo (1).4f9bc30d.svg",
     "/sponser/WinnazLogo (1).8c417e1f.svg",
     "/sponser/BK (1).49106878.svg",
+    "/sponser2/pesachoice.13bd657f.svg",
+  ];
+  const images2 = [
+    "/sponser2/african-union.1c7d5938.svg",
+    "/sponser2/cup.ee89f4a1.svg",
+    "/sponser2/GoogleStartups.443cf151.svg",
+    "/sponser2/hanga.c98cce8b.svg",
+    "/sponser2/leap.fc79f59c.svg",
+    "/sponser2/make-africa.e4df49a6.svg",
+    "/sponser2/african-union.1c7d5938.svg",
+    "/sponser2/cup.ee89f4a1.svg",
+    "/sponser2/GoogleStartups.443cf151.svg",
+    "/sponser2/hanga.c98cce8b.svg",
+    "/sponser2/leap.fc79f59c.svg",
+    "/sponser2/make-africa.e4df49a6.svg",
   ];
   // let newImageArr = [];
   // newImageArr = Array.from(images).reverse();
@@ -26,13 +41,13 @@ function Carsaul() {
   return (
     <div className=" ">
       <div className="bg-[#282541] text-white relative ">
-        <div className="absolute top-0 bottom-0 bg-gradient-to-r from-[#1a182b]  left-0 z-10 w-56"></div>
+        <div className="absolute top-0 bottom-0 bg-gradient-to-r from-[#1a182b]  left-0 to-transparent  z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
         <p className="text-center py-6 font-semibold text-3xl">
           Trusted by Top Employers
         </p>
         <div className="flex">
           <div
-            className="flex items-center animate-loopSlide   gap-2  "
+            className="flex items-center animate-loopSlide   gap-12  "
             aria-hidden="true"
           >
             {images.map((image, index) => {
@@ -47,7 +62,7 @@ function Carsaul() {
             })}
           </div>
           <div
-            className="flex items-center animate-loopSlide gap-2 ps-2 "
+            className="flex items-center animate-loopSlide gap-12 ps-20 "
             aria-hidden="true"
           >
             {images.map((image, index) => {
@@ -62,17 +77,17 @@ function Carsaul() {
             })}
           </div>
         </div>
-        <div className="absolute top-0 bottom-0 bg-gradient-to-l from-[#1a182b]  right-0 z-10 w-56"></div>
+        <div className="absolute top-0 bottom-0 bg-gradient-to-l from-[#1a182b]   to-transparent right-0 z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
       </div>
       <div className=" bg-slate-300 text-black relative">
-        <div className="absolute top-0 bottom-0 bg-gradient-to-r from-white left-0 z-10 w-56"></div>
+        <div className="absolute top-0 bottom-0 bg-gradient-to-r from-slate-200 left-0  to-transparent right-0 z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
         <p className="text-center py-6 font-semibold text-3xl">Backed By</p>
         <div className="flex">
           <div
-            className="flex items-center animate-loopSlide2 gap-2 ps-2  "
+            className="flex items-center animate-loopSlide2 gap-20 ps-20  "
             aria-hidden="true"
           >
-            {images.map((image, index) => {
+            {images2.map((image, index) => {
               return (
                 <img
                   key={index}
@@ -83,8 +98,8 @@ function Carsaul() {
               );
             })}
           </div>
-          <div className="flex items-center animate-loopSlide2   gap-2  ">
-            {images.map((image, index) => {
+          <div className="flex items-center animate-loopSlide2   gap-20  ">
+            {images2.map((image, index) => {
               return (
                 <img
                   key={index}
@@ -96,7 +111,7 @@ function Carsaul() {
             })}
           </div>
         </div>
-        <div className="absolute top-0 bottom-0 bg-gradient-to-l from-white right-0 z-10 w-56"></div>
+        <div className="absolute top-0 bottom-0 bg-gradient-to-l from-slate-200 to-transparent right-0 z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
       </div>
     </div>
   );
