@@ -2,8 +2,8 @@ import React from "react";
 
 function Talents() {
   return (
-    <div className="   px-[60px] ">
-      <div className="  rounded-3xl flex  mt-28  gap-5 ">
+    <div className="px-[60px] ">
+      <div className="rounded-3xl flex  mt-28  gap-5 ">
         <div className="bg-blue-400  ps-[80px] rounded-3xl flex flex-col flex-1  gap-3">
           <p className="text-white font-bold text-[48px] my-[3rem]">
             FOR TALENTS
