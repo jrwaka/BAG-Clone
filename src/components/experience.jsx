@@ -6,7 +6,7 @@ function Experience() {
       <div className="flex mt-28 gap-5 px-[60px]">
         <div className="bg-blue-100 ps-[80px] h-[650px] rounded-3xl flex flex-row flex-1  gap-1">
           <div className="ml-[-40px] mt-3 w-[650px] h-[620px] bg-white rounded-3xl">
-            <p className="mt-14 ml-8 font-bold text-xl flex gap-2">
+            <p className="mt-[5rem] ml-8 font-bold text-xl flex gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
