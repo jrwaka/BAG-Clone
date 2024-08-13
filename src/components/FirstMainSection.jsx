@@ -3,7 +3,7 @@ import React from "react";
 function FirstMainSection() {
   return (
     <div>
-      <div className=" flex flex-col gap-4 h-auto md:h-[100vh] mt-10 md:mt-0  justify-center w-[100vw] items-center bg-white py-[40px] md:py-0">
+      <div className=" flex flex-col gap-4 h-auto md:h-[100vh] mt-10 md:mt-0  justify-center w-100vw items-center  py-[40px] md:py-0 bg-white  ">
         <div>
           <h1 className="text-[30px] md:text-[74px] font-bold text-center select-none">
             <span>GET </span>
