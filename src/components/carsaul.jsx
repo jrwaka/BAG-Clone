@@ -38,9 +38,9 @@ function Carsaul() {
   ];
 
   return (
-    <div className="mt-24">
-      <div className="bg-[#282541] text-white relative ">
-        <div className="absolute top-0 bottom-0 bg-gradient-to-r from-[#1a182b]  left-0 to-transparent  z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
+    <div className=" mt-16 mx-auto">
+      <div className="bg-[#282541] text-white relative pt-8">
+        <div className="absolute top-0 bottom-0 bg-gradient-to-r from-[#1a182b]  left-0 z-10  w-[10%] 2xl:w-[55rem] xl:w-[32rem] from-20% to-transparent"></div>
         <p className="text-center py-6 font-semibold text-3xl">
           Trusted by Top Employers
         </p>
@@ -76,7 +76,7 @@ function Carsaul() {
             })}
           </div>
         </div>
-        <div className="absolute top-0 bottom-0 bg-gradient-to-l from-[#1a182b]   to-transparent right-0 z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
+        <div className="absolute top-0 bottom-0 bg-gradient-to-l from-[#1a182b]  right-0 z-10  w-[10%] 2xl:w-[55rem] xl:w-[32rem] from-20% to-transparent"></div>
       </div>
       <div className=" bg-slate-300 text-black relative">
         <div className="absolute top-0 bottom-0 bg-gradient-to-r from-slate-200 left-0  to-transparent right-0 z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
