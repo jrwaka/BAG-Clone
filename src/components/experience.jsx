@@ -13,7 +13,7 @@ function Experience() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-10"
+                class="size-8"
               >
                 <path
                   stroke-linecap="round"
@@ -35,7 +35,7 @@ function Experience() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-10"
+                class="size-8"
               >
                 <path
                   stroke-linecap="round"
@@ -57,7 +57,7 @@ function Experience() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-10"
+                class="size-8"
               >
                 <path
                   stroke-linecap="round"
