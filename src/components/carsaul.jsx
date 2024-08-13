@@ -81,7 +81,7 @@ function Carsaul() {
       <div className=" bg-slate-300 text-black relative">
         <div className="absolute top-0 bottom-0 bg-gradient-to-r from-slate-200 left-0  to-transparent right-0 z-10 2xl:w-[55rem] xl:w-[32rem] w-[10%] lg:w-[32rem]"></div>
         <p className="text-center py-6 font-semibold text-3xl">Backed By</p>
-        <div className="flex">
+        <div className="flex overflow-hidden">
           <div
             className="flex items-center animate-loopSlide2 gap-20 ps-20  "
             aria-hidden="true"
