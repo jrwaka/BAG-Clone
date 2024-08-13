@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "./bag.css";
 
 function NavBar() {
   const [togglemenu, setMenu] = useState(false);
