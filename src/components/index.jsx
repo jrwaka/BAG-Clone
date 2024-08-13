@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 import Talents from "./Talents";
 
 import Experience from "./experience";
+import Starting from "../starting";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Carsaul />
       <Talents />
       <Experience />
+      <Starting />
     </div>
   );
 };
