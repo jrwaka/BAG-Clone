@@ -4,7 +4,10 @@ import Carsaul from "./carsaul";
 import FirstMainSection from "./FirstMainSection";
 import NavBar from "./NavBar";
 import Talents from "./Talents";
+
 import Experience from "./experience";
+import Starting from "../starting";
+
 const Index = () => {
   return (
     <div className="   pb-[100px] ">
@@ -14,6 +17,7 @@ const Index = () => {
       <Carsaul />
       <Talents />
       <Experience />
+      <Starting />
     </div>
   );
 };
