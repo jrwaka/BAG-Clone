@@ -23,8 +23,8 @@ function Experience() {
               </svg>
               Top Job Opportunities
             </p>
-            <p className="ml-24 mr-12 font-normal text-wrap">
-              Connect with leasding employers across Africa for job and
+            <p className="ml-[4.8rem] mr-8 font-normal flex-auto text-slate-400">
+              Connect with leading employers across Africa for job and
               internship opportunities.
             </p>
 
@@ -45,7 +45,7 @@ function Experience() {
               </svg>
               Career Growth
             </p>
-            <p className="ml-24 mr-12 font-normal text-wrap">
+            <p className="ml-[4.8rem] mr-8 font-normal text-wrap text-slate-400">
               Gain practical experience by working remotely on projects that
               align with your career aspirations.
             </p>
@@ -67,16 +67,16 @@ function Experience() {
               </svg>
               Career Guidance
             </p>
-            <p className="ml-24 mr-12 font-normal text-wrap">
+            <p className="ml-[4.8rem] mr-8 font-normal text-wrap text-slate-400">
               Benefit from mentorship by seasoned professionals, guiding you to
               success in your chosen field.
             </p>
           </div>
           <div className="mt-16 ml-20 flex-wrap gap-5">
-            <p className="font-bold text-4xl ml-[20%]">
+            <p className="font-bold text-4xl text-center">
               Popular Work Experiences
             </p>
-            <p className="mt-5">
+            <p className="mt-5 text-center">
               Kickstart your career growth by joining our virtual job
               simulations. We're excited to support your journey towards
               achieving your professional goals.
