@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "./bag.css";
 
 function NavBar() {
   const [togglemenu, setMenu] = useState(false);
@@ -21,7 +20,7 @@ function NavBar() {
   ];
   return (
     <div>
-      <nav className="flex justify-between items-center fixed top-0 z-50 md:left-24 md:right-24 px-8 py-2 md:rounded-b-[2rem] md:text-xs lg:text-[16px] text-xs left-0 right-0 rounded-none border border-gray-200 bg-white">
+      <nav className="flex  justify-between items-center fixed top-0 z-50 md:left-24 md:right-24 px-8 py-2 md:rounded-b-[2rem] md:text-xs lg:text-[16px] text-xs left-0 right-0 rounded-none border border-gray-200 bg-white">
         <img src="BAG.png" alt="" className="h-[23px], w-[70px]" />
         <div className="hidden md:flex   flex-1 flex-shrink justify-around p-3 ">
           <div className="p-2 ">
