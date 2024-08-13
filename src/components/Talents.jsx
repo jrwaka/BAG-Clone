@@ -5,7 +5,7 @@ function Talents() {
     <div className="px-[60px] space-x-6  mx-auto flex pt-20 lg:flex-row flex-col">
       <div className="bg-blue-400  ps-[80px] rounded-3xl flex flex-col flex-2  gap-3 ">
         <p className="text-white font-bold text-[48px] my-[3rem]">
-          FOR TALENTS
+          FOR TALENTS zone
         </p>
         <img
           src="talents.jpg"
