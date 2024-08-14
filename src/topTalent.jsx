@@ -58,20 +58,6 @@ function Toptalented() {
 
           {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
 
-<<<<<<< HEAD
-          <div className="py-16 ml-20 flex-wrap gap-5">
-            <p className="font-bold text-4xl text-center">
-              Popular Work Experiences
-            </p>
-            <p className="mt-5 text-center">
-              Kickstart your career growth by joining our virtual job
-              simulations. We're excited to support your journey towards
-              achieving your professional goals.
-            </p>
-            <div className="grid grid-cols-3 grid-flow-col  gap-2 mt-5">
-              <div className="bg-blue-600 flex flex-col justify-center overflow-hidden  rounded-3xl p-5">
-                <h2 className="font-bold text-lg text-center">Bonheur</h2>
-=======
           <div className="py-16   flex-wrap gap-5 ">
             <div className=" ">
               <p className="font-bold text-4xl text-center">
@@ -87,7 +73,6 @@ function Toptalented() {
             <div className="md:grid md:grid-cols-3 overflow-x-scroll md:overflow-x-visible  gap-6 mt-5  pt-6 ">
               <div className="bg-blue-200 flex flex-col justify-between  overflow-hidden  rounded-3xl xl:w-[14.375rem]  w-[17rem]h-[11.125rem]">
                 <h2 className="font-bold text-lg text-center mt-2">Bonheur</h2>
->>>>>>> a7555c03f7a149c5525487a8e9bd5377f29972a8
                 <img src="./persons/bonheur.png" alt="Bonheur" />
               </div>
               <div className="bg-white flex flex-col justify-between  overflow-hidden  rounded-3xl  xl:w-[14.375rem]  w-[17rem]h-[11.125rem]">
