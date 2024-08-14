@@ -99,7 +99,7 @@ function Toptalented() {
               achieving your professional goals.
             </p>
             <div className="grid grid-cols-3 grid-flow-col  gap-2 mt-5">
-              <div className="bg-red-600 flex flex-col justify-center overflow-hidden  rounded-3xl p-5">
+              <div className="bg-blue-600 flex flex-col justify-center overflow-hidden  rounded-3xl p-5">
                 <h2 className="font-bold text-lg text-center">Bonheur</h2>
                 <img src="./persons/bonheur.png" alt="Bonheur" />
               </div>
