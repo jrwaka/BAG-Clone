@@ -7,6 +7,7 @@ import Talents from "./Talents";
 
 import Experience from "./experience";
 import Starting from "../starting";
+import Toptalented from "../topTalent";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Talents />
       <Experience />
       <Starting />
+      <Toptalented />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Experience() {
+function Toptalented() {
   return (
     <div>
       <div className="flex mt-28 gap-5 px-[60px] mb-28">
@@ -98,13 +98,31 @@ function Experience() {
               simulations. We're excited to support your journey towards
               achieving your professional goals.
             </p>
-            <div className="flex flex-wrap gap-5 mt-5">
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
+            <div className="grid grid-cols-3 grid-flow-col  gap-2 mt-5">
+              <div className="bg-red-600 flex flex-col justify-center overflow-hidden  rounded-3xl p-5">
+                <h2 className="font-bold text-lg text-center">Bonheur</h2>
+                <img src="./persons/bonheur.png" alt="Bonheur" />
+              </div>
+              <div className="bg-white flex flex-col justify-center w-32 overflow-hidden  rounded-3xl p-5">
+                <h2 className="font-bold text-lg text-center">Deng</h2>
+                <img src="./persons/Deng.png" alt="Deng" />
+              </div>
+              <div className="bg-white flex flex-col justify-center w-1/3 overflow-hidden  rounded-3xl p-5">
+                <h2 className="font-bold text-lg text-center">Lwanda</h2>
+                <img src="./persons/Lwanda.webp" alt="Lwanda" />
+              </div>
+              <div className="bg-white flex flex-col justify-center w-1/3 overflow-hidden  rounded-3xl p-5">
+                <h2 className="font-bold text-lg text-center">Mutesi</h2>
+                <img src="./persons/Mutesi.webp" alt="Mutesi" />
+              </div>
+              <div className="bg-white flex flex-col justify-center w-1/3 overflow-hidden  rounded-3xl p-5">
+                <h2 className="font-bold text-lg text-center">Nkurunziza</h2>
+                <img src="./persons/Nkurunziza.webp" alt="Nkurunziza" />
+              </div>
+              <div className="bg-white flex flex-col justify-center w-1/3 overflow-hidden  rounded-3xl p-5">
+                <h2 className="font-bold text-lg text-center">Yves</h2>
+                <img src="./persons/Yves.webp" alt="Yves" />
+              </div>
             </div>
           </div>
         </div>
@@ -113,4 +131,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Toptalented;
