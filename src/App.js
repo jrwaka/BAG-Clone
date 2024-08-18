@@ -1,10 +1,11 @@
-import Index from "./components/index";
 import React from "react";
+
+import Maincompnent from "./mainScreen";
 
 function App() {
   return (
     <div>
-      <Index />
+      <Maincompnent />
     </div>
   );
 }
