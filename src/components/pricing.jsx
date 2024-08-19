@@ -5,9 +5,9 @@ function Pricing() {
 
   return (
     <div>
-      <div className="my-5 mx-20 border bg-blue-100 rounded-3xl">
-        <div className="flex justify-center">
-          <div className="bg-blue-950 m-12 flex rounded-3xl h-12 w-[50%] justify-center">
+      <div className={`my-5 mx-20 border rounded-3xl flex flex-col items-center ${changestate === "button1" ? "bg-blue-100" : changestate === "button2" ? "bg-purple-100" : "bg-orange-100"}`}>
+        <div className="justify-center w-[50%]">
+          <div className="bg-blue-950 m-12 flex rounded-3xl h-12">
             <button
               className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm ${
                 changestate === "button1" ? "bg-blue-600" : " bg-transparent"
@@ -481,7 +481,7 @@ function Pricing() {
         </div>
 
         <div
-          className={`border bg-white rounded-3xl flex-col justify-between w-1/3 ${
+          className={`h-[35rem] gap-2 px-2 border bg-white rounded-3xl flex-col justify-between w-1/3 ${
             changestate === "button3" ? "flex" : "hidden"
           }`}
         >
