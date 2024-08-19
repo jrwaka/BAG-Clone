@@ -10,7 +10,7 @@ import Toptalented from "./components/topTalent";
 import University from "./components/university";
 import Button from "./components/button";
 import Testimonials from "./components/testimonial";
-
+import Pricing from "./components/pricing";
 const Maincompnent = () => {
   return (
     <div className=" pb-[100px] ">
@@ -25,6 +25,7 @@ const Maincompnent = () => {
       <University />
       <Button />
       <Testimonials />
+      <Pricing />
     </div>
   );
 };
