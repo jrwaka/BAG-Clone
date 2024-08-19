@@ -9,7 +9,9 @@ function Pricing() {
         <div className="flex justify-center">
           <div className="bg-blue-950 m-12 flex rounded-3xl h-12 w-[50%] justify-center">
             <button
-              className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm bg-transparent`}
+              className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm ${
+                changestate === "button1" ? "bg-blue-600" : " bg-transparent"
+              }`}
               onClick={() => {
                 setChange("button1");
               }}
@@ -17,7 +19,9 @@ function Pricing() {
               TALENTS
             </button>
             <button
-              className={`text-white bg-purple-600 w-1/3 rounded-3xl m-2 font-semibold text-sm`}
+              className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm ${
+                changestate === "button2" ? "bg-purple-600" : "bg-transparent"
+              }`}
               onClick={() => {
                 setChange("button2");
               }}
@@ -25,7 +29,9 @@ function Pricing() {
               EMPLOYERS
             </button>
             <button
-              className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm bg-transparent`}
+              className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm  ${
+                changestate === "button3" ? "bg-blue-600" : " bg-transparent"
+              }`}
               onClick={() => {
                 setChange("button3");
               }}
@@ -36,7 +42,7 @@ function Pricing() {
         </div>
         <h1 className="text-4xl font-bold text-center m-5">PRICING</h1>
         <div
-          className={`w-full h-[35rem] gap-2 px-2 ${
+          className={`w-full h-[35rem]  gap-2 px-2 ${
             changestate === "button1" ? "flex" : "hidden"
           }`}
         >
