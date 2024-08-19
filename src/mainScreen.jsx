@@ -11,9 +11,10 @@ import University from "./components/university";
 import Button from "./components/button";
 import Testimonials from "./components/testimonial";
 import Pricing from "./components/pricing";
+import Footer from "./components/footer";
 const Maincompnent = () => {
   return (
-    <div className=" pb-[100px] ">
+    <div className="">
       <NavBar />
       <FirstMainSection />
       <BelowSect1 />
@@ -26,6 +27,7 @@ const Maincompnent = () => {
       <Button />
       <Testimonials />
       <Pricing />
+      <Footer />
     </div>
   );
 };
