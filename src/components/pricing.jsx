@@ -5,6 +5,7 @@ function Pricing() {
 
   return (
     <div>
+    {//** condition  component */}
       <div className={`my-5 mx-20 border rounded-3xl flex flex-col items-center ${changestate === "button1" ? "bg-blue-100" : changestate === "button2" ? "bg-purple-100" : "bg-orange-100"}`}>
         <div className="justify-center w-[50%]">
           <div className="bg-blue-950 m-12 flex rounded-3xl h-12">
