@@ -8,6 +8,7 @@ function Pricing() {
       <div className="my-5 mx-20 border bg-blue-100 rounded-3xl">
         <div className="flex justify-center">
           <div className="bg-blue-950 m-12 flex rounded-3xl h-12 w-[50%] justify-center">
+            {/** this is button change bg color and dynamically */}
             <button
               className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm ${
                 changestate === "button1" ? "bg-blue-600" : " bg-transparent"
