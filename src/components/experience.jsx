@@ -3,9 +3,9 @@ import React from "react";
 function Experience() {
   return (
     <div>
-      <div className="flex mt-28 gap-5 px-[60px] mb-28">
-        <div className="bg-blue-100 ps-[80px] rounded-3xl flex flex-row flex-1  gap-1">
-          <div className="ml-[-40px] mt-3 w-[600px]  bg-white rounded-3xl justify-evenly flex flex-col">
+      <div className="flex mt-28 gap-5 px-14 pe-20  mb-28">
+        <div className="bg-blue-100   justify-center   rounded-3xl flex flex-row p-5   gap-5">
+          <div className=" w-[18.8rem]  bg-white rounded-3xl justify-evenly hidden xl:flex flex-col">
             {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
 
             <div className="px-4 flex gap-3">
@@ -89,22 +89,25 @@ function Experience() {
 
           {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
 
-          <div className="py-16 ml-20 flex-wrap gap-5">
-            <p className="font-bold text-4xl text-center">
-              Popular Work Experiences
-            </p>
-            <p className="mt-5 text-center">
-              Kickstart your career growth by joining our virtual job
-              simulations. We're excited to support your journey towards
-              achieving your professional goals.
-            </p>
-            <div className="flex flex-wrap gap-5 mt-5">
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
-              <img src="image.jpg" alt="" />
+          <div className=" flex flex-col gap-5">
+            <div className="border  space-y-10 ">
+              <p className=" mt-2  font-bold text-4xl text-center ">
+                Popular Work Experiences
+              </p>
+              <p className="text-center">
+                Kickstart your career growth by joining our virtual job
+                simulations. We're excited to support your journey towards
+                achieving your professional goals.
+              </p>
+            </div>
+
+            <div className=" xl:grid xl:grid-cols-3 flex md:flex-row flex-col overflow-y-auto md:h-full gap-6 h-[160px]  overflow-x-auto   ">
+              <img className="w-full" src="image.jpg" alt="" />
+              <img className="w-full" src="image.jpg" alt="" />
+              <img className="w-full" src="image.jpg" alt="" />
+              <img className="w-full" src="image.jpg" alt="" />
+              <img className="w-full" src="image.jpg" alt="" />
+              <img className="w-full" src="image.jpg" alt="" />
             </div>
           </div>
         </div>

@@ -489,7 +489,7 @@ function Pricing() {
         </div>
 
         <div
-          className={`border bg-white rounded-3xl flex-col justify-between w-1/3 ${
+          className={`border h-[35rem] bg-white rounded-3xl flex-col justify-between w-1/3 ${
             changestate === "button3" ? "flex" : "hidden"
           }`}
         >

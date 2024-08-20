@@ -6,12 +6,12 @@ import NavBar from "./components/NavBar";
 import Talents from "./components/Talents";
 import Experience from "./components/experience";
 import Starting from "./components/starting";
-import Toptalented from "./components/topTalent";
-import University from "./components/university";
-import Button from "./components/button";
-import Testimonials from "./components/testimonial";
-import Pricing from "./components/pricing";
-import Footer from "./components/footer";
+// import Toptalented from "./components/topTalent";
+// import University from "./components/university";
+// import Button from "./components/button";
+// import Testimonials from "./components/testimonial";
+// import Pricing from "./components/pricing";
+// import Footer from "./components/footer";
 const Maincompnent = () => {
   return (
     <div className="">
@@ -22,12 +22,17 @@ const Maincompnent = () => {
       <Talents />
       <Experience />
       <Starting />
+      {/*
+    
+   
+ 
+    
       <Toptalented />
       <University />
       <Button />
       <Testimonials />
       <Pricing />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
