@@ -38,7 +38,7 @@ function Pricing() {
             </button>
             <button
               className={`text-white w-1/3 rounded-3xl m-2 font-semibold text-sm  ${
-                changestate === "button3" ? "bg-orange-500" : " bg-transparent"
+                changestate === "button3" ? "bg-blue-600" : " bg-transparent"
               }`}
               onClick={() => {
                 setChange("button3");
@@ -489,7 +489,7 @@ function Pricing() {
         </div>
 
         <div
-          className={`h-[35rem] gap-2 px-2 border bg-white rounded-3xl flex-col justify-between w-1/3 ${
+          className={`border h-[35rem] bg-white rounded-3xl flex-col justify-between w-1/3 ${
             changestate === "button3" ? "flex" : "hidden"
           }`}
         >

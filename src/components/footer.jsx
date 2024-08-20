@@ -88,7 +88,7 @@ function Footer() {
         </div>
       </div>
       <hr className="bg-slate-700 h-0.5 opacity-50" />
-      <div className="flex max-w-[1230px  justify-center gap-5 pt-6 text-base font-normal text-white">
+      <div className="flex   justify-center gap-5 pt-6 text-base font-normal text-white">
         <p>&#169; 2024 - BAG Technologies Ltd</p>
         <div className="flex gap-1">
           <a

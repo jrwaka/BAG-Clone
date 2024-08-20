@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 /* NAVBAR STYLING */
+
 @layer base {
   nav {
     @apply text-black;
@@ -37,45 +38,6 @@
 }
 .hiddenmenu {
   @apply hidden;
-}
-
-/* Carsaul Css */
-
-.slick-slider .slick-track {
-  transition: transform infinity linear 1s !important;
-}
-.slide {
-  width: 100px !important;
-}
-.slick-prev,
-.slick-next {
-  display: none !important;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-}
-
-.slick-slide {
-  animation: fadeIn infinite linear;
-}
-
-.slick-active {
-  animation: slideIn infinite linear;
 }
 
 /* Section1css */
