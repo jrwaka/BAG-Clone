@@ -73,7 +73,7 @@ function Toptalented() {
             <div className="xl:grid xl:grid-cols-3 xl:gap-5 flex md:flex-row flex-col items-center overflow-y-auto  lg:flex-nowrap md:max-w-[40rem]  gap-5  lg:overflow-x-auto overflow-auto xl:max-w-full md:h-fit h-[14.125rem]">
               <div className="bg-blue-200 flex shrink-0 flex-col justify-between rounded-3xl xl:w-full w-[14.375rem]">
                 <h2 className="font-bold text-lg text-center mt-2">Bonheur</h2>
-                <img src="./persons/bonheur.png" alt="Bonheur" />
+                <img src="./persons/Bonheur.png" alt="Bonheur" />
               </div>
               <div className="bg-white flex shrink-0 flex-col justify-between    rounded-3xl xl:w-full  w-[14.375rem] ">
                 <h2 className="font-bold text-lg text-center mt-2">Deng</h2>
