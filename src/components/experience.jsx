@@ -70,6 +70,7 @@ function Experience() {
                   stroke-width="1.5"
                   stroke="currentColor"
                   class="size-8"
+                  k
                 >
                   <path
                     stroke-linecap="round"
@@ -90,8 +91,8 @@ function Experience() {
 
           {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
 
-          <div className=" flex flex-col gap-5">
-            <div className="border  space-y-10 ">
+          <div className=" flex flex-col gap-5 overflow-hidden xl:w-[75%]  xl:max-w-full md:max-w-[45rem]">
+            <div className=" space-y-10 ">
               <p className=" mt-2  font-bold text-4xl text-center ">
                 Popular Work Experiences
               </p>
@@ -102,11 +103,11 @@ function Experience() {
               </p>
             </div>
 
-            <div className=" xl:grid xl:grid-cols-3 flex md:flex-row flex-col overflow-y-auto md:h-full gap-6 h-[160px]  overflow-x-auto   ">
-              <div className="border border-black">
+            <div className="xl:grid xl:grid-cols-3 xl:gap-5 flex lg:flex-row flex-col items-center overflow-y-auto  lg:flex-nowrap lg:max-w-[40rem]  gap-5  lg:overflow-x-auto overflow-auto xl:max-w-full lg:h-full h-[14.125rem]">
+              <div className=" xl:h-full xl:w-full w-[14.375rem]  pb-4  sm:shrink-0 rounded-2xl bg-white ">
                 {" "}
                 <div
-                  className=" bg-no-repeat bg-cover  w-full h-28"
+                  className=" bg-no-repeat bg-cover rounded-t-2xl  w-full h-28 relative"
                   style={{
                     backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
                     backgroundSize: "cover",
@@ -115,13 +116,268 @@ function Experience() {
                   }}
                 >
                   <img
+                    className="absolute top-2 left-2 "
                     src="./icons/companyLogo.08ab2468.svg"
                     alt="companyImage"
                   />
-                  <p className="bg-black text-white opacity-65 w-fit text-center text-[10px] rounded-xl px-3 font-bold py-1">
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[8px] rounded-xl px-3 font-bold py-1 absolute bottom-4 left-2">
                     Bank of Kigali
                   </p>
-                  <div></div>
+                  <div className="flex flex-col  gap-1 absolute top-4 right-2">
+                    <p className="bg-white w-fit rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      ENTREPRENEURSHIP
+                    </p>
+                    <p className="bg-white w-fit self-end rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      SOCIAL IMPACT
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <p className=" font-medium  w-[45%] text-[11px]">
+                    Environment Science Experience
+                  </p>
+                  <img src="/icons/bookmark.81676e7d.svg" alt="" />
+                </div>
+                <p className="w-full h-[1px] bg-gray-200 mt-3"></p>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <div className="bg-green-100 border border-green-300 gap-2 rounded-full flex px-[8px] py-[3px] items-center  text-green-500">
+                    <span className=" rounded-full bg-green-500 w-1 h-1"></span>
+                    <span className="text-[8px]">EASY</span>
+                  </div>
+                  <div className="flex gap-2 text-[10px] text-gray-400">
+                    <img src="/icons/People.3e9da29d.svg" alt="" />
+                    <span>1 COMPLETED</span>
+                  </div>
+                </div>
+              </div>
+              <div className="  xl:w-full  xl:h-full w-[14.375rem]  pb-4  sm:shrink-0  rounded-2xl bg-white ">
+                {" "}
+                <div
+                  className=" bg-no-repeat bg-cover  rounded-t-2xl w-full h-28 relative"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <img
+                    className="absolute top-2 left-2 "
+                    src="./icons/companyLogo.08ab2468.svg"
+                    alt="companyImage"
+                  />
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[8px] rounded-xl px-3 font-bold py-1 absolute bottom-4 left-2">
+                    Bank of Kigali
+                  </p>
+                  <div className="flex flex-col  gap-1 absolute top-4 right-2">
+                    <p className="bg-white w-fit rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      ENTREPRENEURSHIP
+                    </p>
+                    <p className="bg-white w-fit self-end rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      SOCIAL IMPACT
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <p className=" font-medium  w-[45%] text-[11px]">
+                    Environment Science Experience
+                  </p>
+                  <img src="/icons/bookmark.81676e7d.svg" alt="" />
+                </div>
+                <p className="w-full h-[1px] bg-gray-200 mt-3"></p>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <div className="bg-green-100 border border-green-300 gap-2 rounded-full flex px-[8px] py-[3px] items-center  text-green-500">
+                    <span className=" rounded-full bg-green-500 w-1 h-1"></span>
+                    <span className="text-[8px]">EASY</span>
+                  </div>
+                  <div className="flex gap-2 text-[10px] text-gray-400">
+                    <img src="/icons/People.3e9da29d.svg" alt="" />
+                    <span>1 COMPLETED</span>
+                  </div>
+                </div>
+              </div>
+              <div className=" xl:w-full xl:h-full w-[14.375rem]  pb-4  sm:shrink-0  rounded-2xl bg-white">
+                {" "}
+                <div
+                  className=" bg-no-repeat bg-cover  rounded-t-2xl w-full h-28 relative"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <img
+                    className="absolute top-2 left-2 "
+                    src="./icons/companyLogo.08ab2468.svg"
+                    alt="companyImage"
+                  />
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[8px] rounded-xl px-3 font-bold py-1 absolute bottom-4 left-2">
+                    Bank of Kigali
+                  </p>
+                  <div className="flex flex-col  gap-1 absolute top-4 right-2">
+                    <p className="bg-white w-fit rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      ENTREPRENEURSHIP
+                    </p>
+                    <p className="bg-white w-fit self-end rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      SOCIAL IMPACT
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <p className=" font-medium  w-[45%] text-[11px]">
+                    Environment Science Experience
+                  </p>
+                  <img src="/icons/bookmark.81676e7d.svg" alt="" />
+                </div>
+                <p className="w-full h-[1px] bg-gray-200 mt-3"></p>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <div className="bg-green-100 border border-green-300 gap-2 rounded-full flex px-[8px] py-[3px] items-center  text-green-500">
+                    <span className=" rounded-full bg-green-500 w-1 h-1"></span>
+                    <span className="text-[8px]">EASY</span>
+                  </div>
+                  <div className="flex gap-2 text-[10px] text-gray-400">
+                    <img src="/icons/People.3e9da29d.svg" alt="" />
+                    <span>1 COMPLETED</span>
+                  </div>
+                </div>
+              </div>
+              <div className="  xl:w-full  xl:h-full w-[14.375rem] pb-4  sm:shrink-0  rounded-2xl bg-white ">
+                {" "}
+                <div
+                  className=" bg-no-repeat bg-cover  rounded-t-2xl w-full h-28 relative"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <img
+                    className="absolute top-2 left-2 "
+                    src="./icons/companyLogo.08ab2468.svg"
+                    alt="companyImage"
+                  />
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[8px] rounded-xl px-3 font-bold py-1 absolute bottom-4 left-2">
+                    Bank of Kigali
+                  </p>
+                  <div className="flex flex-col  gap-1 absolute top-4 right-2">
+                    <p className="bg-white w-fit rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      ENTREPRENEURSHIP
+                    </p>
+                    <p className="bg-white w-fit self-end rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      SOCIAL IMPACT
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <p className=" font-medium  w-[45%] text-[11px]">
+                    Environment Science Experience
+                  </p>
+                  <img src="/icons/bookmark.81676e7d.svg" alt="" />
+                </div>
+                <p className=" h-0.5 w-full bg-gray-200 mt-3"></p>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <div className="bg-green-100 border border-green-300 gap-2 rounded-full flex px-[8px] py-[3px] items-center  text-green-500">
+                    <span className=" rounded-full bg-green-500 w-1 h-1"></span>
+                    <span className="text-[8px]">EASY</span>
+                  </div>
+                  <div className="flex gap-2 text-[10px] text-gray-400">
+                    <img src="/icons/People.3e9da29d.svg" alt="" />
+                    <span>1 COMPLETED</span>
+                  </div>
+                </div>
+              </div>
+              <div className="  xl:h-full xl:w-full  w-[14.375rem]  pb-4  sm:shrink-0  rounded-2xl bg-white ">
+                {" "}
+                <div
+                  className=" bg-no-repeat bg-cover  rounded-t-2xl w-full h-28 relative"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <img
+                    className="absolute top-2 left-2 "
+                    src="./icons/companyLogo.08ab2468.svg"
+                    alt="companyImage"
+                  />
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[8px] rounded-xl px-3 font-bold py-1 absolute bottom-4 left-2">
+                    Bank of Kigali
+                  </p>
+                  <div className="flex flex-col  gap-1 absolute top-4 right-2">
+                    <p className="bg-white w-fit rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      ENTREPRENEURSHIP
+                    </p>
+                    <p className="bg-white w-fit self-end rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      SOCIAL IMPACT
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <p className=" font-medium  w-[45%] text-[11px]">
+                    Environment Science Experience
+                  </p>
+                  <img src="/icons/bookmark.81676e7d.svg" alt="" />
+                </div>
+                <p className="w-full h-[1px] bg-gray-200 mt-3"></p>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <div className="bg-green-100 border border-green-300 gap-2 rounded-full flex px-[8px] py-[3px] items-center  text-green-500">
+                    <span className=" rounded-full bg-green-500 w-1 h-1"></span>
+                    <span className="text-[8px]">EASY</span>
+                  </div>
+                  <div className="flex gap-2 text-[10px] text-gray-400">
+                    <img src="/icons/People.3e9da29d.svg" alt="" />
+                    <span>1 COMPLETED</span>
+                  </div>
+                </div>
+              </div>
+              <div className="  xl:h-full xl:w-full w-[14.375rem]  pb-4  sm:shrink-0  rounded-2xl bg-white ">
+                {" "}
+                <div
+                  className=" bg-no-repeat bg-cover  rounded-t-2xl w-full h-28 relative"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <img
+                    className="absolute top-2 left-2 "
+                    src="./icons/companyLogo.08ab2468.svg"
+                    alt="companyImage"
+                  />
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[8px] rounded-xl px-3 font-bold py-1 absolute bottom-4 left-2">
+                    Bank of Kigali
+                  </p>
+                  <div className="flex flex-col  gap-1 absolute top-4 right-2">
+                    <p className="bg-white w-fit rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      ENTREPRENEURSHIP
+                    </p>
+                    <p className="bg-white w-fit self-end rounded-2xl px-3 py-1 text-[8px] font-semibold">
+                      SOCIAL IMPACT
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <p className=" font-medium  w-[45%] text-[11px]">
+                    Environment Science Experience
+                  </p>
+                  <img src="/icons/bookmark.81676e7d.svg" alt="" />
+                </div>
+                <p className="w-full h-[1px] bg-gray-200 mt-3"></p>
+                <div className="flex items-center justify-between px-3 mt-2">
+                  <div className="bg-green-100 border border-green-300 gap-2 rounded-full flex px-[8px] py-[3px] items-center  text-green-500">
+                    <span className=" rounded-full bg-green-500 w-1 h-1"></span>
+                    <span className="text-[8px]">EASY</span>
+                  </div>
+                  <div className="flex gap-2 text-[10px] text-gray-400">
+                    <img src="/icons/People.3e9da29d.svg" alt="" />
+                    <span>1 COMPLETED</span>
+                  </div>
                 </div>
               </div>
             </div>
