@@ -1,6 +1,7 @@
 import React from "react";
 
 function Experience() {
+  const imageArr=["/persons/image.jpg","/persons/image.jpg","/persons/image.jpg","/persons/image.jpg","/persons/image.jpg","/persons/image.jpg"]
   return (
     <div>
       <div className="flex mt-28 gap-5 px-14 pe-20  mb-28">
@@ -102,12 +103,9 @@ function Experience() {
             </div>
 
             <div className=" xl:grid xl:grid-cols-3 flex md:flex-row flex-col overflow-y-auto md:h-full gap-6 h-[160px]  overflow-x-auto   ">
-              <img className="w-full" src="/persons/image.jpg" alt="" />
-              <img className="w-full" src="/persons/image.jpg" alt="" />
-              <img className="w-full" src="/persons/image.jpg" alt="" />
-              <img className="w-full" src="/persons/image.jpg" alt="" />
-              <img className="w-full" src="/persons/image.jpg" alt="" />
-              <img className="w-full" src="/persons/image.jpg" alt="" />
+          {imageArr.map((index)=>{
+            <img key={index} src={index} alt="image"/>
+          })}
             </div>
           </div>
         </div>
