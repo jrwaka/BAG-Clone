@@ -102,12 +102,12 @@ function Experience() {
             </div>
 
             <div className=" xl:grid xl:grid-cols-3 flex md:flex-row flex-col overflow-y-auto md:h-full gap-6 h-[160px]  overflow-x-auto   ">
-              <img className="w-full" src="image.jpg" alt="" />
-              <img className="w-full" src="image.jpg" alt="" />
-              <img className="w-full" src="image.jpg" alt="" />
-              <img className="w-full" src="image.jpg" alt="" />
-              <img className="w-full" src="image.jpg" alt="" />
-              <img className="w-full" src="image.jpg" alt="" />
+              <img className="w-full" src="./image.jpg" alt="" />
+              <img className="w-full" src="./image.jpg" alt="" />
+              <img className="w-full" src="./image.jpg" alt="" />
+              <img className="w-full" src="./image.jpg" alt="" />
+              <img className="w-full" src="./image.jpg" alt="" />
+              <img className="w-full" src="./image.jpg" alt="" />
             </div>
           </div>
         </div>
