@@ -17,9 +17,6 @@ module.exports = {
           to: { transform: "translateX(0%)" },
         },
       },
-      backgroundImage: {
-        "hero-pattern": "url('./Company dashboard 1.png')",
-      },
     },
   },
   plugins: [],
