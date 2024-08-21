@@ -4,7 +4,7 @@ function Experience() {
   const imag = "./persons/experience-pic.png";
   return (
     <div>
-      <div className="flex mt-28 gap-5 px-14 pe-20  mb-28">
+      <div className="flex mt-28 gap-5  px-5  justify-center xl:ps-14 xl:pe-[50px]  md:mb-28 mb-14">
         <div className="bg-blue-100   justify-center   rounded-3xl flex flex-row p-5   gap-5">
           <div className=" w-[18.8rem]  bg-white rounded-3xl justify-evenly hidden xl:flex flex-col">
             {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
@@ -92,8 +92,8 @@ function Experience() {
           {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
 
           <div className=" flex flex-col gap-5 overflow-hidden xl:w-[75%]  xl:max-w-full md:max-w-[45rem]">
-            <div className=" space-y-10 ">
-              <p className=" mt-2  font-bold text-4xl text-center ">
+            <div className=" md:space-y-10  space-y-5">
+              <p className=" md:mt-2  mt-1 font-bold xl:text-4xl text-center md:text-2xl text-xl ">
                 Popular Work Experiences
               </p>
               <p className="text-center">
@@ -103,7 +103,7 @@ function Experience() {
               </p>
             </div>
 
-            <div className="xl:grid xl:grid-cols-3 xl:gap-5 flex lg:flex-row flex-col items-center overflow-y-auto  lg:flex-nowrap lg:max-w-[40rem]  gap-5  lg:overflow-x-auto overflow-auto xl:max-w-full lg:h-full h-[14.125rem]">
+            <div className="xl:grid xl:grid-cols-3 xl:gap-5 flex md:flex-row flex-col items-center overflow-y-auto  md:flex-nowrap md:max-w-[40rem]  gap-5  md:overflow-x-auto overflow-auto xl:max-w-full lg:h-full h-[14.125rem]">
               <div className=" xl:h-full xl:w-full w-[14.375rem]  pb-4  sm:shrink-0 rounded-2xl bg-white ">
                 {" "}
                 <div

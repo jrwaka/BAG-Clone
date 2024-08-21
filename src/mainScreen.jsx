@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 import Talents from "./components/Talents";
 import Experience from "./components/experience";
 import Starting from "./components/starting";
-// import Toptalented from "./components/topTalent";
+import Toptalented from "./components/topTalent";
 // import University from "./components/university";
 // import Button from "./components/button";
 // import Testimonials from "./components/testimonial";
@@ -22,12 +22,13 @@ const Maincompnent = () => {
       <Talents />
       <Experience />
       <Starting />
+
+      <Toptalented />
       {/*
     
    
  
-    
-      <Toptalented />
+ 
       <University />
       <Button />
       <Testimonials />
