@@ -1,14 +1,7 @@
 import React from "react";
 
 function Experience() {
-  const images = [
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-  ];
+  const imag = "./persons/experience-pic.png";
   return (
     <div>
       <div className="flex mt-28 gap-5 px-14 pe-20  mb-28">
@@ -110,11 +103,27 @@ function Experience() {
             </div>
 
             <div className=" xl:grid xl:grid-cols-3 flex md:flex-row flex-col overflow-y-auto md:h-full gap-6 h-[160px]  overflow-x-auto   ">
-              {images.map((image, index) => {
-                return (
-                  <img key={index} src={image} alt="" className="w-full" />
-                );
-              })}
+              <div className="border border-black">
+                {" "}
+                <div
+                  className=" bg-no-repeat bg-cover  w-full h-28"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(255, 140, 24, .5), rgba(255, 140, 24, .5)), url(${imag}) `,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <img
+                    src="./icons/companyLogo.08ab2468.svg"
+                    alt="companyImage"
+                  />
+                  <p className="bg-black text-white opacity-65 w-fit text-center text-[10px] rounded-xl px-3 font-bold py-1">
+                    Bank of Kigali
+                  </p>
+                  <div></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
