@@ -1,14 +1,7 @@
 import React from "react";
 
 function Experience() {
-  const images = [
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-    "/persons/image.jpg",
-  ];
+
   return (
     <div>
       <div className="flex mt-28 gap-5 px-14 pe-20  mb-28">
@@ -110,11 +103,11 @@ function Experience() {
             </div>
 
             <div className=" xl:grid xl:grid-cols-3 flex md:flex-row flex-col overflow-y-auto md:h-full gap-6 h-[160px]  overflow-x-auto   ">
-              {images.map((image, index) => {
-                return (
-                  <img key={index} src={image} alt="" className="w-full" />
-                );
-              })}
+              <div>
+                <div className="bg-url(experience-pic.png)">
+                  Hello
+                </div>
+              </div>
             </div>
           </div>
         </div>

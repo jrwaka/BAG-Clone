@@ -17,6 +17,7 @@ module.exports = {
           to: { transform: "translateX(0%)" },
         },
       },
+      backgroundImage: "experience-pic.png",
     },
   },
   plugins: [],
