@@ -17,14 +17,16 @@ function Testimonials() {
   }, [emblaApi]);
   return (
     <div>
-      <div className="mt-24 flex flex-col gap-10 px-28 relative">
-        <p className=" text-center font-bold text-[2rem]">TESTIMONIALS</p>
-        <div className="embla bg-white " ref={emblaRef}>
-          <div className="embla__container ">
-            <div className="embla__slide bg-transparent  ">
+      <div className="xl:mt-24 mt-10 flex flex-col gap-10 xl:px-28  md:px-10 px-5 relative">
+        <p className=" text-center font-bold md:text-[1.7rem] text-xl xl:text-[2rem]">
+          TESTIMONIALS
+        </p>
+        <div className="embla  shrink-0" ref={emblaRef}>
+          <div className="embla__container  shrink-0">
+            <div className="embla__slide bg-transparent ">
               <div className=" h-full px-3 py-6 flex flex-col gap-4 ">
                 {" "}
-                <div className="bg-white flex items-center space-x-5 w-fit">
+                <div className="bg-white flex items-center space-x-5 w-fit ">
                   <p className="bg-slate-100 w-12 h-12 flex justify-center items-center rounded-full text-xl">
                     U
                   </p>
@@ -42,7 +44,7 @@ function Testimonials() {
                 </div>
               </div>
             </div>{" "}
-            <div className="embla__slide bg-transparent  ">
+            <div className="embla__slide bg-transparent shrink-0">
               <div className=" h-full px-3 py-6 flex flex-col gap-4 ">
                 {" "}
                 <div className="bg-white flex items-center space-x-5 w-fit">
@@ -59,13 +61,13 @@ function Testimonials() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[80%] text-gray-400">
+                <div className="w-[80%] text-gray-400 ">
                   Happy to collaborate with BAG on our Rwanda program again.
                   Their recruitment support is hugely beneficial.
                 </div>
               </div>
             </div>{" "}
-            <div className="embla__slide bg-transparent  ">
+            <div className="embla__slide bg-transparent  shrink-0 ">
               <div className=" h-full px-3 py-6 flex flex-col gap-4 ">
                 {" "}
                 <div className="bg-white flex items-center space-x-5 w-fit">
@@ -86,7 +88,7 @@ function Testimonials() {
                 </div>
               </div>
             </div>{" "}
-            <div className="embla__slide bg-transparent  ">
+            <div className="embla__slide bg-transparent   shrink-0">
               <div className=" h-full px-3 py-6 flex flex-col gap-4 ">
                 {" "}
                 <div className="bg-white flex items-center space-x-5 w-fit">
@@ -109,7 +111,7 @@ function Testimonials() {
                 </div>
               </div>
             </div>{" "}
-            <div className="embla__slide bg-transparent  ">
+            <div className="embla__slide bg-transparent   shrink-0">
               <div className=" h-full px-3 py-6 flex flex-col gap-4 ">
                 {" "}
                 <div className="bg-white flex items-center space-x-5 w-fit">
@@ -132,7 +134,7 @@ function Testimonials() {
                 </div>
               </div>
             </div>{" "}
-            <div className="embla__slide bg-transparent  ">
+            <div className="embla__slide bg-transparent   shrink-0">
               <div className=" h-full px-3 py-6 flex flex-col gap-4 ">
                 {" "}
                 <div className="bg-white flex items-center space-x-5 w-fit">
@@ -155,7 +157,7 @@ function Testimonials() {
             </div>{" "}
           </div>
           <button
-            className="border border-black text-xl text-white  absolute left-10 top-[60%] rounded-full p-2"
+            className="border lg:block hidden border-black text-xl text-white  absolute xl:left-10 left-2 top-[60%] rounded-full p-1  xl:p-2"
             onClick={scrollPrev}
           >
             <svg
@@ -174,7 +176,7 @@ function Testimonials() {
             </svg>
           </button>
           <button
-            className="border border-black  text-xl text-white absolute right-10 top-[60%] rounded-full p-2"
+            className="border border-black lg:block hidden text-xl text-white absolute right-2 xl:right-10 top-[60%] rounded-full p-1 xl:p-2"
             onClick={scrollNext}
           >
             <svg
