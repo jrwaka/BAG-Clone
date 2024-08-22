@@ -1,4 +1,21 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
+const variants = {
+  open: {
+    y: -50,
+    opacity: 1,
+    transition: {
+      y: { stiffness: 1000, velocity: -100 },
+    },
+  },
+  closed: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      y: { stiffness: 1000 },
+    },
+  },
+};
 
 function NavBar() {
   const [togglemenu, setMenu] = useState(false);
@@ -75,7 +92,7 @@ function NavBar() {
             </div>
           </div>
         </div>
-        <div className="items-center justify-between gap-3 ">
+        <div className="items-center  justify-between gap-3 relative ">
           <div className="hidden md:flex items-center gap-4">
             <button className="px-5 py-3 rounded-full  bg-gray-100 text-black hover:bg-blue-600 hover:text-white transition duration-300 font-semibold">
               Login
@@ -83,7 +100,7 @@ function NavBar() {
             <button className="px-5 py-3 rounded-full bg-blue-600 text-white font-semibold whitespace-nowrap">
               Get Started
             </button>
-            <button className="text-3xl block md:hidden" onClick={toggleMenu}>
+            {/* <button className="text-3xl block md:hidden" onClick={toggleMenu}>
               {togglemenu ? (
                 <svg
                   className="close"
@@ -115,12 +132,15 @@ function NavBar() {
                   ></path>
                 </svg>
               )}
-            </button>
+            </button> */}
           </div>
-          <button className="toggleMenu" onClick={toggleMenu}>
+          <button
+            className="md:hidden block text-3xl absolute z-50 right-4 -top-4"
+            onClick={toggleMenu}
+          >
             {togglemenu ? (
               <svg
-                className="close"
+                className="open"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
@@ -137,11 +157,11 @@ function NavBar() {
                 width="1em"
                 height="1em"
                 viewBox="0 0 24 24"
-                className="open"
+                className="close"
               >
                 <path
                   fill="none"
-                  stroke="currentColor"
+                  stroke="black"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={1.5}
@@ -153,18 +173,39 @@ function NavBar() {
         </div>
       </nav>
       <div className={`   ${togglemenu ? "menu" : " hiddenmenu"} `}>
-        <div className="HiddenMenu">
+        <motion.div className="HiddenMenu">
           <ul className="list">
+            {/* <button onClick={toggleMenu} className="absolute  right-12 top-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-7"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </button> */}
             {LinkArr.map((link) => (
-              <li key={link}>
+              <motion.li
+                variants={variants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                key={link}
+              >
                 <a href="/">{link}</a>
-              </li>
+              </motion.li>
             ))}
           </ul>
-          <button>
+          <button className="bg-blue-500 w-2/3 py-3 rounded-full text-white font-semibold whitespace-nowrap cursor-pointer hover:bg-blue-400">
             <a href="/">Login</a>
           </button>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
