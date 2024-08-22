@@ -202,6 +202,7 @@ function NavBar() {
               </motion.li>
             ))}
           </ul>
+          {/**hidden button */}
           <button className="hover:bg-blue-500 border border-blue-300 w-2/3 py-3 rounded-full text-black font-semibold whitespace-nowrap cursor-pointer ">
             <a href="/">Login</a>
           </button>
