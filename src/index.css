@@ -14,27 +14,18 @@
   @apply flex flex-nowrap whitespace-nowrap items-center hover:text-blue-500 h-full relative;
 }
 
-.menu {
-  @apply flex md:hidden  bg-white justify-between  fixed top-[54px]   bottom-0 w-full z-50;
-  .list {
-    @apply flex flex-col gap-3 text-xl font-medium w-full bg-blue-100  items-center flex-1 justify-around rounded-b-[6rem];
-  }
-}
-
 .navLink {
   @apply hidden md:flex   flex-1 flex-shrink justify-around p-3;
 }
 .menu {
-  @apply flex md:hidden  bg-white justify-between  fixed top-[47px]   bottom-0 w-full z-50;
+  @apply flex md:hidden  bg-white justify-between  fixed top-11 z-50 pb-10  bottom-0 w-full;
   .list {
-    @apply flex flex-col gap-3 text-xl font-medium w-full bg-blue-100  items-center flex-1 justify-around rounded-b-[6rem];
+    @apply flex flex-col text-xl font-medium w-full bg-slate-200  items-center h-[80%] py-10  justify-start gap-5 rounded-b-[2rem];
   }
 }
-.toggleMenu {
-  @apply text-3xl block md:hidden;
-}
+
 .HiddenMenu {
-  @apply flex flex-col gap-3 text-xl font-medium w-full   items-center flex-1 justify-around bg-white;
+  @apply flex flex-col gap-3 text-xl font-medium w-full  h-full items-center flex-1 justify-start;
 }
 .hiddenmenu {
   @apply hidden;
