@@ -202,8 +202,11 @@ function NavBar() {
               </motion.li>
             ))}
           </ul>
-          <button className="bg-blue-500 w-2/3 py-3 rounded-full text-white font-semibold whitespace-nowrap cursor-pointer hover:bg-blue-400">
+          <button className="hover:bg-blue-500 border border-blue-300 w-2/3 py-3 rounded-full text-black font-semibold whitespace-nowrap cursor-pointer ">
             <a href="/">Login</a>
+          </button>
+          <button className="bg-blue-500 w-2/3 py-3 rounded-full text-white font-semibold whitespace-nowrap cursor-pointer hover:bg-blue-400">
+            <a href="/">Get Started</a>
           </button>
         </motion.div>
       </div>
