@@ -3,7 +3,7 @@ import React from "react";
 function Toptalented() {
   return (
     <div>
-      <div className="flex mt-28  mb-28">
+      <div className="flex mt-28  mb-16 xl:mb-28">
         <div className=" bg-blue-100 p-8 mx-[15px]  md:mx-[30px] xl:mx-[60px] justify-center rounded-3xl flex   gap-8">
           <div className="  w-[450px]  bg-white rounded-3xl justify-evenly hidden xl:flex flex-col">
             {/** STYLE THE RESPONSIVENESS ACCORDING TO THIS DIV AND TRY TO AVOID MARGIN AND PADDING USE FLEXING AND GAP */}
