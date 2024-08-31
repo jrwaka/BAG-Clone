@@ -22,7 +22,6 @@ const Maincompnent = () => {
       <Talents />
       <Experience />
       <Starting />
-
       <Toptalented />
       <University />
       <Button />

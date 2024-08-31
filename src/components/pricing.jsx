@@ -38,7 +38,7 @@ function Pricing() {
             </button>
             <button
               className={`text-white w-1/3 rounded-3xl font-semibold md:text-sm text-[13px]   ${
-                changestate === "button3" ? "bg-blue-600" : " bg-transparent"
+                changestate === "button3" ? "bg-orange-500" : " bg-transparent"
               }`}
               onClick={() => {
                 setChange("button3");
