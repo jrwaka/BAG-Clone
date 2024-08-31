@@ -32,3 +32,19 @@ body {
     flex: 0 0 100%;
   }
 }
+@keyframes translateY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.word-animated {
+  display: inline-block;
+  animation: translateY 1.5s ease-in-out infinite;
+}
