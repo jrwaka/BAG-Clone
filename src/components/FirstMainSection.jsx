@@ -46,7 +46,7 @@ function FirstMainSection() {
 
   return (
     <div>
-      <div className="flex flex-col gap-4 h-auto md:h-[22rem] mt-10 md:mt-20 justify-center w-full items-center py-[40px] md:py-0">
+      <div className="flex flex-col gap-4 h-auto md:h-[25rem] mt-10 md:mt-20 justify-center w-full items-center py-[40px] md:py-0">
         <div className="overflow-hidden h-10 lg:h-28 md:h-20">
           <h1 className="text-[30px] lg:text-[74px] md:text-[50px] font-bold text-center select-none overflow-hidden h-full">
             <AnimatePresence>
